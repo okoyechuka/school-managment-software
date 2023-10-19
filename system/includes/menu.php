@@ -106,16 +106,7 @@ function adminMenu() {
                 <?php } ?>
                 <?php global $hooks;$hooks->do_action('AddMenuExam');?>
 			</div>
-            
-        <span id="item2cbt" onclick="togleShowMenu('resellerMenu2cbt')" class="link <?php if($URL=='cbt'||$URL=='courses'): echo 'active'; endif ?>"><i class="fa fa-desktop"></i> E-Learning Tools</span>
-		    <div class="resellerMenuLists"  id="resellerMenu2cbt">
-                <a href="admin/courses"><span class="link sublink">Manage Courses </span></a>
-                 <?php if( userRole($userID) < 3) { ?>  
-                <a href="admin/courses?new"><span class="link sublink">Create Courses </span></a>
-                <?php } ?>
-            	<a href="admin/cbt"><span class="link sublink">Computer-based Tests</span></a>
-                <?php global $hooks;$hooks->do_action('AddMenuElearning');?>
-			</div>    
+        
 <?php } ?>
 
 <?php if( userRole($userID) == 4) { ?>            
@@ -235,12 +226,6 @@ function studentMenu() {
 <?php if(userRole($userID) == 6) { ?>
     <a href="usersubject"><span class="link <?php if($URL=='usersubject'): echo 'active'; endif ?>"><i class="fa fa-tasks"></i> My Subjects</span></a>
     <a href="userassignment"><span class="link <?php if($URL=='userassignment'): echo 'active'; endif ?>"><i class="fa fa-pencil"></i> My Class Assignments</span></a> 
-    <span id="item2cbt" onclick="togleShowMenu('resellerMenu2cbt')" class="link <?php if($URL=='usercbt'||$URL=='usercourses'): echo 'active'; endif ?>"><i class="fa fa-desktop"></i> E-Learning Tools</span>
-		    <div class="resellerMenuLists"  id="resellerMenu2cbt">
-                <a href="usercourses"><span class="link sublink">My Courses </span></a>
-            	<a href="usercbt"><span class="link sublink">Computer-based Tests</span></a>
-                <?php global $hooks;$hooks->do_action('AddMenuElearning');?>
-			</div>
     <a href="userreportcard"><span class="link <?php if($URL=='userreportcard'): echo 'active'; endif ?>"><i class="fa fa-file-o"></i> My Exam Reports</span></a>        
 <?php } else { ?>
 	<a href="userassignment"><span class="link <?php if($URL=='userassignment'): echo 'active'; endif ?>"><i class="fa fa-pencil"></i> Assignments</span></a> 
