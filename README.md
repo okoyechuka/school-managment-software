@@ -1,12 +1,12 @@
-# SOA - Complete School Management & Information System
-SOA is a browser-based all-in-one School management software designed for schools and colleges, comprising of School Management module, Admission module, Staff/Teachers module, Fee module, Online Payment module, Examination module,Attendance module, Students Information module,Accounting module, Parent/Students Portal, Students Application Portal, Library module, Document Management module, Human Resource module, SMS/Email Communication module and many others useful modules that makes school management easy and efficient 
+# Complete School Management & Information System
+A browser-based all-in-one School management software designed for schools and colleges, comprising of School Management module, Admission module, Staff/Teachers module, Fee module, Online Payment module, Examination module,Attendance module, Students Information module,Accounting module, Parent/Students Portal, Students Application Portal, Library module, Document Management module, Human Resource module, SMS/Email Communication module and many others useful modules that makes school management easy and efficient 
 
 
 # Intalation and Usage
 Download and study the included Documentation PDF file for detailed step-by-step guide on installation and usage. 
 
 # Core Features
-As a complete school management system, SOA comprises of over 30 administration, management, automation and information modules, including the following core modules;
+As a complete school management system, The app comprises of over 30 administration, management, automation and information modules, including the following core modules;
 
 Dashboard Module: 
 The dashboard gives you an overview of your school’s status including a selection of graphical reports and links to most used features.
@@ -36,7 +36,7 @@ Fee Module:
 The fee module provides tools to create, manage and collect different fees for different sessions, terms, classes or even groups of students. It also provides tools for fee payment, invoicing as well as a feature to view various fee reports, including defaulters list. SOA also gives you the flexibility of collecting part or full payment for fees. Payments can be made in multiple installments.
 
 Online Payments: 
-SOA offers 7 online payment platforms; Quickteller, PayPal, GTPay, WebPay, 2Checkout, SimplePay and Cash/Bank payments, with tools to easily create custom payment gateways, giving parents multiple payment options.
+The app offers 7 online payment platforms; Quickteller, PayPal, GTPay, WebPay, 2Checkout, SimplePay and Cash/Bank payments, with tools to easily create custom payment gateways, giving parents multiple payment options.
 
 Exams & Record Module: 
 The exams and records module enables you to create Exams for various school sessions and terms or even classes, record students' exam and assessment marks and automatically compute and generate class-wise, student-wise and subjectwise results. It also provides tools to easily promote students to the next class based on performance in the selected exam.
@@ -60,7 +60,7 @@ System Maintenance Module
 The system maintenance module provides tools to keep the system running smoothly, including database backup/restore tools, system upgrade tool and migration tool.
 
 Authentication Module: 
-The authentication module keeps the system secured, making sure that only authorized users have access to the system and that users only have access to modules and functions assigned to them based on the access privileges. SOA provides you the option to authenticate school portal users with either scratch card PIN code or Username/Password.
+The authentication module keeps the system secured, making sure that only authorized users have access to the system and that users only have access to modules and functions assigned to them based on the access privileges. The app provides you the option to authenticate school portal users with either scratch card PIN code or Username/Password.
 
 Time-table & Calendar Module: 
 The time-table and calendar module provides tools to create and manage your school’s schedules, class-wise schedules, daily class periods, school activities and events, school calendar and much more
