@@ -1,0 +1,163 @@
+.panel-body table {
+	padding: 10px 0 10px 12px;	
+	border: 1px solid #666;
+	border-collapse: collapse;
+    border-radius: 5px;
+	width: 100%;
+	-webkit-box-shadow: 0 8px 6px -6px #666;
+	   -moz-box-shadow: 0 8px 6px -6px #666;
+	        box-shadow: 0 8px 6px -6px #666;
+}
+.panel-body table tr:first-child {
+	font-weight: bold;
+	background-color: #222;
+	color: white;
+}
+
+.panel-body table tr:first-child th {
+	padding-left: 10px;
+	font-size: 14px;
+	border: 0 !important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.panel-body table tr td {
+	border: 0 !important;
+	padding-left: 10px;
+	font-size: 12px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.panel-body table tr:hover > td, .panel-body table tr:nth-child(odd):hover td {
+	background-color: #E1EBF0;	
+}
+.panel-body table tr:nth-child(odd) td {
+	background-color: #efefef;
+}
+button {
+	border-radius: 5px !important;
+}
+.panel-body table tr td button {
+	background-color: #036;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 4px 10px 4px 10px;	
+	height: auto;
+	border-radius: 5px;
+}
+#add-new {
+	max-width: 800px;	
+	border-radius: 7px;
+}
+#add-new-head {
+	background-image: url(3d-in.png);
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+body::-webkit-scrollbar-thumb {
+  background: #234; 
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: #236; 
+}	
+
+
+#add-new .inside::-webkit-scrollbar {
+  width: 8px;
+}
+#add-new .inside::-webkit-scrollbar-track {
+  background: #fefefe; 
+}
+#add-new .inside::-webkit-scrollbar-thumb {
+  background: #233; 
+}
+#add-new .inside::-webkit-scrollbar-thumb:hover {
+  background: #036; 
+}	
+
+#side-menu::-webkit-scrollbar {
+  width: 5px;
+}
+#side-menu::-webkit-scrollbar-track {
+  background: #fefefe; 
+}
+#side-menu::-webkit-scrollbar-thumb {
+  background: #233; 
+}
+#side-menu::-webkit-scrollbar-thumb:hover {
+  background: #036; 
+}	
+
+.inside table tr td:first-child {
+	max-width: 	200px;
+}
+#side-menu span.link, #side-menu a span.link {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+button.submit, a button.submit {
+	background-color: #063;
+}
+#responsive-menu {
+	border: 1px solid transparent;
+}
+#side-menu {
+	-webkit-box-shadow: 8px 0 6px -6px #666;
+	   -moz-box-shadow: 8px 0 6px -6px #666;
+	        box-shadow: 8px 0 6px -6px #666;
+}
+
+.danger, .btn-danger {
+	background-color: rgba(153,0,0,1) !important;
+	color: white;	
+}
+.success, .btn-success {
+	background-color: rgba(0,102,0,1) !important;	
+	color: white;
+}
+.warning, .btn-warning {
+	background-color: rgba(204,51,0,1) !important;	
+	color: white;
+}
+#clock {
+	font-size: 45px;
+	padding-left: 10px;	
+	padding-top: 14px;
+	text-shadow: 1px 1px 2px black;
+}
+.small_list {
+	background: #efefef;
+	color:#000;
+	padding:5px;
+	margin:5px auto; 
+	width:96%; 
+	margin-left:2%;	
+	min-height: 50px;
+}
+.small_list2 {
+	background: #efefef;
+	color:#000;
+	padding:5px;
+	margin:5px auto; 
+	width:96%; 
+	margin-left:2%;
+	min-height: 50px;
+}
+.small_list:hover {
+	cursor: pointer;
+	background-color: #ddd;	
+}
+.infobox {
+	background: #efefef;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 10px;	
+}
+.infobox p {
+	margin: 0;
+}

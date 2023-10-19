@@ -1,0 +1,239 @@
+/* 	
+	SnowWhite Skin
+	By: Ynet Interactive
+	info@ynetinteractive.com
+*/
+	
+body {
+  background-color: #efefef;
+}
+
+#header {
+	background-color: #E2E2E2;	
+	border-bottom: 1px solid #efefef;
+}
+
+#login-center {
+	background-color: #F5F9FC;	
+	border: 0px solid #fff;
+}
+#login-head {
+	color: black;
+	background-color: #E2E2E2;
+}
+
+#body {
+	background-color: #FBFBFB;	
+}
+#footer {
+	background-color: #efefef;	
+}
+#side-menu {
+	background-color: #efefef;
+	color: #fff	;
+}
+#side-menu span.link, #side-menu a span.link {
+	border-bottom: 1px solid #ddd;
+	border-left: 2px solid #ddd;
+	backgrund-color: #efefef;
+	color: #222;
+}
+#side-menu span.link:hover, #side-menu span.active {
+	background-color: #333;
+	color: #fff;
+}
+#side-menu a {
+	color: #222;
+}
+#title .action {
+	color: #222;
+	background-color: #fff;
+}
+#resellerMenu span.sublink, #resellerMenu2 span.sublink, #resellerMenu3 span.sublink, #resellerMenu4 span.sublink, #resellerMenu5 span.sublink, #resellerMenu6 span.sublink, #resellerMenu7 span.sublink, #resellerMenu8 span.sublink, #resellerMenu55 span.sublink, #resellerMenu17 span.sublink, #resellerMenu56 span.sublink, #resellerMenu41 span.sublink, .resellerMenuLists span.sublink  {
+	background-color: #efefef;
+	border-left-color: #ddd;	
+	color: #222;
+}
+.status-box2 {
+	background-color: #efefef;
+	color: #222;
+}
+.panel {
+	border: 2px solid #efefef;
+	background-color:#ffffff;
+}
+.panel-head {
+	color: #222;
+	background-color: #efefef;	
+}
+.panel-body table tr:first-child {
+	background-color: #efefef;
+	color: #222;
+	text-shadow: 1px 1px 1px #333333;
+}
+
+.inside table.list tr:first-child {
+	background-color: #efefef;
+	color: #222;
+	text-shadow: 1px 1px 1px #333333;
+}
+
+.panel-body table tr td {
+	background-color: #fff;
+	color: #000000;
+	border: 1px solid #bbb;
+}
+
+.panel-body table tr.cont:hover {
+	background-color: #CCC;	
+}
+
+.panel-body table tr.body {
+	background-color: #ffffff;	
+	color: black;
+}
+.inner-right .status-box {
+	background-color: #dde;;
+	color: #444;
+}
+
+#countBox, #countBox2, #rate, #amount {
+	background-color: #fff;	
+}
+		
+.breadcrumb li a {
+	color: white;
+	background: #9CF;                  
+	background: hsla(34,85%,35%,1); 
+}
+.breadcrumb li a[href]:hover {
+	background: #31A7B0 !important;
+}
+.breadcrumb li a[href]:hover:after {
+	border-left-color: #31A7B0 !important;
+}
+
+.breadcrumb-active a {
+	background: #E2E2E2 !important;
+	color: #666;
+}
+.breadcrumb-active a:after {
+	border-left-color: #E2E2E2 !important;
+}
+#payment-gateway .gateway-box:hover {
+	border-color: #036;
+	color: #036;
+}
+#invoice-head {
+	border-bottom: 1px solid #69F;
+	background-color:#036;
+	color: #ffffff;
+}
+#search-pan {
+	background-color: white;	
+	border: 2px solid transparent;
+}
+#search-pan button {
+	background-color: #069;
+	color: white;
+}
+
+/* -------- Pop-up and Dialog Boxes ------------------- */
+#dialog {
+	background-color:#FFF;
+	border: 2px solid #efefef;
+}
+#dialog-head .close:hover {
+	color: #222;	
+	border-color:#E2E2E2;
+}
+#dialog-head .close {
+	color: #222;
+}
+#dialog-head {
+	color: #222;
+	background-color: #E2E2E2;	
+}
+
+#add-new {
+	background-color:#FFF;
+	border: 2px solid #efefef;
+}
+#add-new-head .close:hover {
+	color: #222;	
+	border-color:#E2E2E2;
+}
+#add-new-head .close {
+	color: #222;		
+}
+#add-new-head {
+	color: #222;
+	background-color: #E2E2E2;	
+}
+
+#admin-menu {
+	background-color:#efefef;
+}
+td.smList {
+	background-color: #F5F5F5;
+	border: 1px solid #F5F5F5;
+}
+.status-box:hover {
+	background-color: #E2E2E2;
+}
+
+.status-box {
+	background-color: #efefef;
+	color: #222;
+}
+.schedule {
+	background-color: #CCC;
+	color: black;
+}
+.schedule3 {
+	background-color: #333;
+}
+.yearbook {
+	background-color: #efefef;
+	color: @222;
+	border: 2px solid #999;
+}
+photos {
+	border: 2px solid #CCC;
+	background-color:#efefef;
+}
+photos:hover {
+	background-color: #E2E2E2;	
+	border-color: #069;
+}
+photos button {
+	color: #fff;
+	background-color: #000066;	
+	border: 1px solid #CCC;
+}
+.loadingDiv {	
+   color: #222;
+   background-color: rgba(255,245,245,0.8);
+}
+#userProfile, #userMail {
+	color: #222;
+}
+
+#responsive-menu {
+	color: #222;
+	border: 1px solid #222;
+}
+#responsive-menu:hover {
+	background-color: #222;
+	color: #E2E2E2;	
+}
+.status-box span.big .fa {
+	color: #333;	
+}
+table tr:nth-child(even) { 
+	background-color: #f2f2f2
+}
+tr td.tr-heading {
+	background-color: #E2E2E2; 
+	color: #222; 
+}

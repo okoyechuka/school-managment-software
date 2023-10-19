@@ -1,0 +1,234 @@
+/* 	
+	OliveGreen Skin
+	By: Ynet Interactive
+	info@ynetinteractive.com
+*/
+	
+body {
+  background-color: #6B8E23;
+}
+
+#header {
+	background-color: #556B2F;	
+	border-bottom: 1px solid #6B8E23;
+}
+
+#login-center {
+	background-color: #F5F9FC;	
+	border: 0px solid #cbb;
+}
+#login-head {
+	color: white;
+	background-color: #556B2F;
+}
+
+#body {
+	background-color: #FBFBFB;	
+}
+#footer {
+	background-color: #6B8E23;	
+}
+#side-menu {
+	background-color: #6B8E23;
+	color: #eee	;
+}
+#side-menu span.link, #side-menu a span.link {
+	border-bottom: 1px solid #445;
+	border-left: 2px solid #445;
+	backgrund-color: #6B8E23;
+	color: #eee;
+}
+#side-menu span.link:hover, #side-menu span.active {
+	background-color: #111;
+	color: #ddd;
+}
+#side-menu a {
+	color: #eee;
+}
+#title .action {
+	color: #444;
+	background-color: #fee;
+}
+#resellerMenu span.sublink, #resellerMenu2 span.sublink, #resellerMenu3 span.sublink, #resellerMenu4 span.sublink, #resellerMenu5 span.sublink, #resellerMenu6 span.sublink, #resellerMenu7 span.sublink, #resellerMenu8 span.sublink, #resellerMenu55 span.sublink, #resellerMenu17 span.sublink, #resellerMenu56 span.sublink, #resellerMenu41 span.sublink, .resellerMenuLists span.sublink  {
+	background-color: #6B8E23;
+	border-left-color: #dde;	
+	color: #eee;
+}
+.status-box2 {
+	background-color: #6B8E23;
+	color: white;
+}
+.panel {
+	border: 2px solid #6B8E23;
+	background-color:#ffffff;
+}
+.panel-head {
+	color: white;
+	background-color: #6B8E23;	
+}
+.panel-body table tr:first-child {
+	background-color: #6B8E23;
+	color: #fff;
+	text-shadow: 1px 1px 1px #333333;
+}
+
+.inside table.list tr:first-child {
+	background-color: #6B8E23;
+	color: #fff;
+	text-shadow: 1px 1px 1px #333333;
+}
+
+.panel-body table tr td {
+	background-color: #fff;
+	color: #000000;
+	border: 1px solid #bbb;
+}
+
+.panel-body table tr.cont:hover {
+	background-color: #CCC;	
+}
+
+.panel-body table tr.body {
+	background-color: #ffffff;	
+	color: black;
+}
+.inner-right .status-box {
+	background-color: #dde;;
+	color: #444;
+}
+
+#countBox, #countBox2, #rate, #amount {
+	background-color: #fff;	
+}
+		
+.breadcrumb li a {
+	color: white;
+	background: #9CF;                  
+	background: hsla(34,85%,35%,1); 
+}
+.breadcrumb li a[href]:hover {
+	background: #31A7B0 !important;
+}
+.breadcrumb li a[href]:hover:after {
+	border-left-color: #31A7B0 !important;
+}
+
+.breadcrumb-active a {
+	background: #556B2F !important;
+	color: #666;
+}
+.breadcrumb-active a:after {
+	border-left-color: #556B2F !important;
+}
+#payment-gateway .gateway-box:hover {
+	border-color: #036;
+	color: #036;
+}
+#invoice-head {
+	border-bottom: 1px solid #69F;
+	background-color:#036;
+	color: #ffffff;
+}
+#search-pan {
+	background-color: white;	
+	border: 2px solid transparent;
+}
+#search-pan button {
+	background-color: #069;
+	color: white;
+}
+
+/* -------- Pop-up and Dialog Boxes ------------------- */
+#dialog {
+	background-color:#FFF;
+	border: 2px solid #6B8E23;
+}
+#dialog-head .close:hover {
+	color: #eef;	
+	border-color:#556B2F;
+}
+#dialog-head .close {
+	color: white;
+}
+#dialog-head {
+	color: white;
+	background-color: #556B2F;	
+}
+
+#add-new {
+	background-color:#FFF;
+	border: 2px solid #6B8E23;
+}
+#add-new-head .close:hover {
+	color: #eef;	
+	border-color:#556B2F;
+}
+#add-new-head .close {
+	color: white;		
+}
+#add-new-head {
+	color: white;
+	background-color: #556B2F;	
+}
+
+#admin-menu {
+	background-color:#6B8E23;
+}
+td.smList {
+	background-color: #F5F5F5;
+	border: 1px solid #F5F5F5;
+}
+.status-box:hover {
+	background-color: #556B2F;
+}
+
+.status-box {
+	background-color: #6B8E23;
+	color: white;
+}
+.schedule {
+	background-color: #CCC;
+	color: black;
+}
+.schedule3 {
+	background-color: #333;
+}
+.yearbook {
+	background-color: #6B8E23;
+	color: white;
+	border: 2px solid #999;
+}
+photos {
+	border: 2px solid #CCC;
+	background-color:#6B8E23;
+}
+photos:hover {
+	background-color: #556B2F;	
+	border-color: #069;
+}
+photos button {
+	color: #fff;
+	background-color: #000066;	
+	border: 1px solid #CCC;
+}
+.loadingDiv {	
+   color: #556B2F;
+   background-color: rgba(255,245,245,0.8);
+}
+
+#responsive-menu {
+	color: #ffffff;
+	border: 1px solid #ffffff;
+}
+#responsive-menu:hover {
+	background-color: #ffffff;
+	color: #556B2F;	
+}
+
+table tr:nth-child(even) { 
+	background-color: #f2f2f2
+}
+tr td.tr-heading {
+	background-color: #556B2F; 
+	color: #fff; 
+}

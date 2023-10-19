@@ -1,0 +1,17 @@
+RewriteEngine on
+
+#Enable the two lines below for SSL
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+
+RewriteRule  ^admin/([A-Za-z0-9-]+)/?$ admin.php?url=$1 [QSA]
+RewriteRule  ^apply/([A-Za-z0-9-]+)/?$ apply.php?url=$1 [QSA]
+RewriteRule  ^admin/?$ admin.php?$1 [QSA]
+RewriteRule  ^apply/?$ apply.php?$1 [QSA]
+RewriteRule ^([^/\.]+)/?$ index.php?url=$1 [QSA]
+RewriteRule  ^/?$ index.php?$1 [QSA]
+RewriteRule  ^applicant/([A-Za-z0-9-]+)/?$ apply.php?school_username=$1 [QSA]
+RewriteRule  ^schools/([A-Za-z0-9-]+)/?$ index.php?school_username=$1 [QSA]
+RewriteRule  ^schools/index.php index.php [QSA]
+
+ErrorDocument 404 /index.php

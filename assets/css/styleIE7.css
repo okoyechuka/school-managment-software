@@ -1,0 +1,15 @@
+
+.slider {
+	margin:0 auto;
+	width:100%;
+	text-align:left;
+	  overflow: none;
+}
+.slideshow-back {
+	width:380px;
+	height:230px;
+	background:url(../images/slideshow-back.png) no-repeat;
+	float:right;
+	padding:0 10px 10px 17px;
+	margin-top:-5px;
+]

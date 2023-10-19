@@ -1,0 +1,19 @@
+jquery-2.2.0.min.js:3 GET http://localhost/SOA%20New/SOA/assets/images/select2x2.png 404 (Not Found)
+Fa @ jquery-2.2.0.min.js:3
+css @ jquery-2.2.0.min.js:3
+get @ jquery-2.2.0.min.js:3
+css @ jquery-2.2.0.min.js:3
+(anonymous) @ jquery-2.2.0.min.js:4
+K @ jquery-2.2.0.min.js:2
+n.fn.(anonymous function) @ jquery-2.2.0.min.js:4
+measureScrollbar @ select2.js:134
+init @ select2.js:779
+(anonymous) @ select2.js:3147
+each @ jquery-2.2.0.min.js:2
+each @ jquery-2.2.0.min.js:2
+$.fn.select2 @ select2.js:3134
+(anonymous) @ fee?pay:443
+i @ jquery-2.2.0.min.js:2
+fireWith @ jquery-2.2.0.min.js:2
+ready @ jquery-2.2.0.min.js:2
+J @ jquery-2.2.0.min.js:2

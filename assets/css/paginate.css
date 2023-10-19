@@ -1,0 +1,51 @@
+.paginationstyle{ /*Style for demo pagination divs*/
+text-align: center;
+padding: 2px 0;
+margin: 10px 0;
+position: relative;
+margin-top: 20px;
+width: 100%;
+float: left;
+}
+
+.paginationstyle select{ /*Style for demo pagination divs' select menu*/
+border: 1px solid navy;
+margin: 0 15px;
+}
+
+.paginationstyle a{ /*Pagination links style*/
+padding: 5px;
+text-decoration: none;
+border: 2px solid #069;
+color: white;
+background-color: #069;
+border-radius: 2px;
+  margin-top: 10px;
+  margin-left: 4px;  
+  font-size: 13px;
+  line-height: 13px;
+  font-weight: bold;
+}
+.paginationstyle a img {
+	height: 15px;
+	width: auto;
+	vertical-align: middle;	
+	margin-top: -4px;
+}
+.paginationstyle a:hover, .paginationstyle a.selected{
+color: #fff;
+background-color: #333;
+  cursor: pointer;
+}
+
+.paginationstyle a.disabled, .paginationstyle a.disabled:hover{ /*Style for "disabled" previous or next link*/
+background-color: #9CF;
+cursor: not-allowed;
+color: #fff;
+border-color: transparent;
+}
+
+.paginationstyle .flatview a:hover, .paginationstyle .flatview a.selected{ /*Pagination div "flatview" links style*/
+color: #000;
+background-color: yellow;
+}
